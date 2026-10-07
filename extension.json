@@ -1,0 +1,25 @@
+```json
+{
+    "name": "Google Indexing API",
+    "version": "1.0.0",
+    "author": [
+        "Mippedia Community"
+    ],
+    "url": "https://www.mediawiki.org/wiki/Extension:GoogleIndexing",
+    "description": "Dikembangkan oleh Mippedia Community untuk mengotomatisasi pemanggilan Google Indexing API saat halaman disimpan atau dihapus.",
+    "license-name": "GPL-2.0-or-later",
+    "type": "SEO",
+    "manifest_version": 2,
+    "AutoloadNamespaces": {
+        "GoogleIndexing\\": "includes/"
+    },
+    "HookHandlers": {
+        "GoogleIndexingHooks": {
+            "class": "GoogleIndexing\\Hooks"
+        }
+    },
+    "Hooks": {
+        "PageSaveComplete": "GoogleIndexingHooks",
+        "PageDeleteComplete": "GoogleIndexingHooks"
+    }
+}
