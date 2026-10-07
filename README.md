@@ -12,20 +12,24 @@ An official MediaWiki extension developed by Mippedia Community to automate real
 
 ### Option 1: Git Clone
 Navigate to your MediaWiki `extensions/` directory and run:
-```bash
-cd extensions/
-git clone (https://github.com/MippediaCommunity/GoogleIndexing.git](https://github.com/MippediaCommunity/GoogleIndexing.git)
+
+```cd extensions/```
+```git clone (https://github.com/MippediaCommunity/GoogleIndexing.git]```
+
+or
+
+```(https://github.com/MippediaCommunity/GoogleIndexing.git)```
 
 ### Option 2: Manual Installation
 
 Create a folder extensions/GoogleIndexing/.
 Copy extension.json and includes/Hooks.php into the directory.
 
-## ⚙️ Configuration
+⚙️ Configuration
 Add the following to your LocalSettings.php:
 
-wfLoadExtension( 'GoogleIndexing' );
-$wgGoogleIndexingJsonPath = '/path/to/your/google-key.json';
+```wfLoadExtension( 'GoogleIndexing' );```
+```$wgGoogleIndexingJsonPath = '/path/to/your/google-key.json';```
 
-## 📄 License
+📄 License
 Developed by Mippedia Community. Released under the GPL-2.0-or-later license.
