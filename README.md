@@ -14,11 +14,7 @@ An official MediaWiki extension developed by Mippedia Community to automate real
 Navigate to your MediaWiki `extensions/` directory and run:
 
 ```cd extensions/```
-```git clone https://github.com/MippediaCommunity/GoogleIndexing.git```
-
-or
-
-```https://github.com/MippediaCommunity/GoogleIndexing.git```
+```git clone https://github.com/Mippedia-Community/GoogleIndexing.git```
 
 ### Option 2: Manual Installation
 
